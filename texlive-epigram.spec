@@ -1,3 +1,9 @@
+# revision 20513
+# category Package
+# catalog-ctan /macros/generic/misc/epigram.tex
+# catalog-date 2010-11-20 18:15:00 +0100
+# catalog-license pd
+# catalog-version undef
 Name:		texlive-epigram
 Version:	20101120
 Release:	1
@@ -35,6 +41,7 @@ line or a displayed paragraph.
 #-----------------------------------------------------------------------
 %files
 %{_texmfdistdir}/tex/generic/epigram/epigram.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -45,3 +52,5 @@ line or a displayed paragraph.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
