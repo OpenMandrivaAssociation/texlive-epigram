@@ -43,3 +43,17 @@ line or a displayed paragraph.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20101120-2
++ Revision: 751492
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20101120-1
++ Revision: 718343
+- texlive-epigram
+- texlive-epigram
+- texlive-epigram
+- texlive-epigram
+
