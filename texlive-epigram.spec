@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-epigram
 Version:	20180303
-Release:	1
+Release:	2
 Summary:	Display short quotations
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/generic/misc/epigram.tex
