@@ -3,7 +3,7 @@ Version:	20513
 Release:	2
 Summary:	Display short quotations
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/generic/misc/epigram.tex
+URL:		https://www.ctan.org/tex-archive/macros/generic/misc/epigram.tex
 License:	PD
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/epigram.r%{version}.tar.xz
 BuildArch:	noarch
